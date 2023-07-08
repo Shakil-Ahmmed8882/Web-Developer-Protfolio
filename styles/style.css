@@ -7,6 +7,7 @@ body {
 nav {
   display: flex;
   justify-content:space-between;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -34,4 +35,16 @@ nav span {
       background-color: #fd6e0a;
       color: #fff;
       border-radius: 5px;
+}
+
+/* Header styles  */
+.header{
+      background-color: #fff8f3;
+}
+.banner-content{
+      display: flex;
+      padding: 30px 30px 30px 150px;
+}
+.banner-content .profile-pic{
+      width: 500px;
 }
