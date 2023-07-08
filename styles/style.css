@@ -3,8 +3,12 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-p{
-      line-height: 1.5;
+section {
+  max-width: 1140px;
+  margin: 120px 0;
+}
+p {
+  line-height: 1.5;
 }
 /* Navigation Bar */
 nav {
@@ -32,12 +36,13 @@ nav span {
   color: #fd6e0a;
 }
 .btn-primary {
-  width: 100px;
-  height: 40px;
+  width: 135px;
+  height: 45px;
   border: 0;
   background-color: #fd6e0a;
   color: #fff;
   border-radius: 5px;
+  margin-top: .2rem;
 }
 
 /* Header styles  */
@@ -51,8 +56,14 @@ nav span {
 .banner-content .profile-pic {
   width: 500px;
 }
+.banner-description {
+  margin-bottom: 1.2rem;
+}
+.download {
+  margin-right: 20px;
+}
 
-/* ABout section */
+/* ABout Me section */
 .about {
   background-color: #fff8f3;
   width: 700px;
@@ -64,5 +75,93 @@ nav span {
 .about-info-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 1.2rem;
+}
+
+/* Skill section */
+.skill-section {
+  padding: 80px;
+  background-color: #1110100a;
+}
+.skill-heading,
+.what-i-do-description {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+}
+.sill-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.skill-section h3 {
+  text-align: left;
+  margin: 0.4rem 0;
+  margin-right: 0;
+}
+.skill {
+  width: 200px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* resume */
+.resume {
+  padding: 80px;
+  margin-bottom: 2rem;
+}
+.resume h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.inner-wrapper {
+  display: flex;
+  gap: 4rem;
+}
+.resume-position,
+.resume-description {
+  color: #757575;
+}
+.cv-download{
+  text-align: center;
   margin-top: 2rem;
+}
+/* footer */
+footer {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0;
+  background-color: #fcf3ed;
+  justify-content: space-around;
+}
+
+footer p {
+  font-size: 13px;
+  width: 400px;
+}
+label {
+  display: block;
+}
+footer * {
+  border: 0;
+}
+.social-icons img{
+  margin:.3rem;
+  width: 23px;
+}
+.message-us {
+  background-color: #00000000;
+  overflow: hidden;
+  width: 250px;
+}
+.message-us input,
+textarea {
+  padding: 0.6rem;
+  width: 100%;
+  margin: 0.4rem;
+}
+.submit-btn{
+  margin-top: 1rem;
 }
